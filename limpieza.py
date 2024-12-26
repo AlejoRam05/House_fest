@@ -1,0 +1,5 @@
+from datos import DATOSCRUDOSCOPY
+print(DATOSCRUDOSCOPY.head(),
+DATOSCRUDOSCOPY.info(),
+DATOSCRUDOSCOPY.describe(),
+DATOSCRUDOSCOPY.isnull().sum())
